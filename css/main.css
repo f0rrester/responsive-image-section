@@ -38,7 +38,7 @@ a {
   background-color: #555;
   color: white;
   padding: 0.5em 0.75em;
-  border-radius: 3px;
+  border-radius: 4px;
 }
 
 a:hover {
@@ -58,7 +58,7 @@ p {
 }
 
 .info {
-  padding: 1rem;
+  margin: 1rem 0;
 }
 
 img {
