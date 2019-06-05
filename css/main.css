@@ -77,6 +77,21 @@ img {
     font-size: 110%;
     line-height: 1.4;
   }
+
+  section {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .all {
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+  }
+
+  .img-flex {
+    width: 50%;
+  }
 }
 
 @media only screen and (min-width: 60em) {
@@ -84,11 +99,25 @@ img {
     font-size: 120%;
     line-height: 1.5;
   }
+
+  .img-flex {
+    padding-top: 2rem;
+    vertical-align: middle;
+  }
+
+  .all {
+    vertical-align: middle;
+  }
 }
 
 @media only screen and (min-width: 90em) {
   html {
     font-size: 130%;
     line-height: 1.5;
+  }
+
+  section {
+    padding: 8rem;
+    max-width: 100%;
   }
 }
